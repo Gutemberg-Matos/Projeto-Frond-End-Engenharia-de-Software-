@@ -136,6 +136,7 @@ ul { list-style: none; }
   align-items: center;
   gap: 8px;
   flex-shrink: 0;
+  margin-left: auto;
 }
 .btn-ghost {
   padding: 8px 16px;
@@ -1285,7 +1286,7 @@ ul { list-style: none; }
 @media (max-width: 768px) {
   :root { --nav-h: 64px; }
 
-  .nav-links, .nav-actions { display: none; }
+  .nav-links { display: none; }
   .nav-links.open {
     display: flex;
     flex-direction: column;
@@ -1297,6 +1298,13 @@ ul { list-style: none; }
     gap: 4px;
     z-index: 999;
     box-shadow: var(--shadow-md);
+  }
+  .nav-links.open .nav-actions {
+    display: flex;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+    margin-top: 8px;
+    margin-left: 0;
   }
   .nav-mobile-toggle { display: flex; }
   .nav-container { gap: 16px; }
