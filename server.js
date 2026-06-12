@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
 
 server.listen(PORT, () => {
   console.log('\n┌─────────────────────────────────────────┐');
-  console.log(`│  🏠  UniRent rodando em:                 │`);
+  console.log(`│  🏠  EstudanteLar rodando em:            │`);
   console.log(`│      http://localhost:${PORT}               │`);
   console.log('└─────────────────────────────────────────┘\n');
   console.log('  Pressione Ctrl+C para encerrar.\n');

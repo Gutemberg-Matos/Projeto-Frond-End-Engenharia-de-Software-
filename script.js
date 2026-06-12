@@ -1,5 +1,5 @@
 /* =============================================
-   UniRent — Main Script
+   EstudanteLar — Main Script
    ============================================= */
 
 let allProperties = [];

@@ -1,5 +1,5 @@
 /* =============================================
-   UniRent — Detail Page Script
+   EstudanteLar — Detail Page Script
    ============================================= */
 
 let property = null;
@@ -21,7 +21,7 @@ async function loadDetail() {
     const data = await res.json();
     property = data.properties.find(p => p.id === id);
     if (!property) { window.location.href = 'index.html'; return; }
-    document.title = `${property.title} — UniRent`;
+    document.title = `${property.title} — EstudanteLar`;
     renderGallery();
     renderMain();
     renderSidebar();
@@ -273,12 +273,12 @@ function renderSidebar() {
       </a>
 
       ${p.available ? `
-        <button class="btn-contact">
+        <a href="mensagens.html" class="btn-contact" style="text-decoration:none;display:flex;align-items:center;gap:8px;justify-content:center">
           <i class="fa-brands fa-whatsapp"></i> Enviar mensagem
-        </button>
-        <button class="btn-schedule">
+        </a>
+        <a href="mensagens.html" class="btn-schedule" style="text-decoration:none;display:flex;align-items:center;gap:8px;justify-content:center">
           <i class="fa-solid fa-calendar-plus"></i> Agendar visita
-        </button>
+        </a>
       ` : `
         <button class="btn-contact" disabled style="background:var(--text-3);cursor:not-allowed;">
           <i class="fa-solid fa-ban"></i> Imóvel indisponível
@@ -287,7 +287,7 @@ function renderSidebar() {
 
       <p class="sidebar-note">
         <i class="fa-solid fa-shield-check" style="color:var(--forest)"></i>
-        Perfil verificado pela UniRent
+        Perfil verificado pela EstudanteLar
       </p>
     </div>
   `;
