@@ -2,19 +2,19 @@
   "properties": [
     {
       "id": 1,
-      "title": "Studio moderno — perto da USP",
+      "title": "Studio moderno — perto da UFCG",
       "type": "studio",
       "typeLabel": "Studio",
-      "price": 890,
+      "price": 750,
       "images": [
         "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=900&q=80",
         "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=900&q=80",
         "https://images.unsplash.com/photo-1554995207-c18c203602cb?w=900&q=80"
       ],
-      "description": "Studio completamente mobiliado com cozinha americana equipada, banheiro privativo e bancada de trabalho ergonômica. Prédio com portaria 24h, câmeras de segurança e lavanderia coletiva. Condomínio inclui internet fibra óptica de 300 Mbps. Excelente para estudantes que buscam praticidade e autonomia, a apenas 10 minutos a pé do campus central.",
-      "address": "Av. Prof. Luciano Gualberto, 380 — Butantã, São Paulo — SP",
-      "distance_university": 0.8,
-      "travel_time": { "walking": 10, "bus": 5, "car": 3, "bike": 4 },
+      "description": "Studio completamente mobiliado com cozinha americana equipada, banheiro privativo e bancada de trabalho ergonômica. Prédio com portaria 24h, câmeras de segurança e lavanderia coletiva. Internet fibra óptica de 200 Mbps inclusa. Excelente para estudantes da UFCG que buscam praticidade e autonomia, a apenas 8 minutos a pé do campus.",
+      "address": "Rua Manoel Tavares, 320 — Bodocongó, Campina Grande — PB",
+      "distance_university": 0.7,
+      "travel_time": { "walking": 8, "bus": 4, "car": 3, "bike": 4 },
       "features": {
         "pet_friendly": true,
         "smoking": false,
@@ -35,7 +35,7 @@
         "name": "Ana Luiza Costa",
         "type": "comum",
         "typeLabel": "Proprietária",
-        "phone": "(11) 99872-4561",
+        "phone": "(83) 99872-4561",
         "rating": 4.9,
         "reviews": 23,
         "avatar": "https://i.pravatar.cc/100?img=47",
@@ -43,35 +43,35 @@
       },
       "nearby": {
         "universities": [
-          { "name": "USP — Campus Butantã", "distance": 0.8, "walking": 10 }
+          { "name": "UFCG — Campus Universitário", "distance": 0.7, "walking": 8 }
         ],
         "markets": [
-          { "name": "Supermercado BH", "distance": 0.3, "walking": 4 },
-          { "name": "Mercado Extra", "distance": 0.8, "walking": 10 }
+          { "name": "Hiper Muffato Campina Grande", "distance": 0.4, "walking": 5 },
+          { "name": "Mercado Bem Barato", "distance": 0.7, "walking": 9 }
         ],
         "gyms": [
-          { "name": "Smart Fit Butantã", "distance": 0.6, "walking": 8 }
+          { "name": "Smart Fit Campina Grande", "distance": 0.5, "walking": 6 }
         ],
         "bus_stops": [
-          { "name": "Terminal Butantã (Metrô)", "distance": 0.2, "walking": 3 }
+          { "name": "Terminal Central de Campina Grande", "distance": 0.3, "walking": 4 }
         ]
       }
     },
     {
       "id": 2,
-      "title": "Quarto feminino compartilhado — UNICAMP",
+      "title": "Quarto feminino compartilhado — UEPB",
       "type": "shared",
       "typeLabel": "Compartilhado",
-      "price": 450,
+      "price": 370,
       "images": [
         "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=900&q=80",
         "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&q=80",
         "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&q=80"
       ],
-      "description": "Quarto individual em apartamento compartilhado com mais 2 estudantes. Ambiente tranquilo, clean e bem conservado. Áreas comuns incluem sala de estar, cozinha equipada e banheiro compartilhado. Conta de água e luz inclusa no valor. Somente para estudantes do sexo feminino. Excelente localização, a 12 minutos caminhando da UNICAMP.",
-      "address": "Rua Culto à Ciência, 245 — Cambuí, Campinas — SP",
-      "distance_university": 1.2,
-      "travel_time": { "walking": 15, "bus": 7, "car": 5, "bike": 6 },
+      "description": "Quarto individual em apartamento compartilhado com mais 2 estudantes. Ambiente tranquilo, bem conservado e próximo ao campus. Áreas comuns incluem sala de estar, cozinha equipada e banheiro compartilhado. Água e luz inclusas no valor. Somente para estudantes do sexo feminino. Ótima localização, a 11 minutos caminhando da UEPB.",
+      "address": "Rua Baraúnas, 415 — Bodocongó, Campina Grande — PB",
+      "distance_university": 0.9,
+      "travel_time": { "walking": 11, "bus": 5, "car": 4, "bike": 5 },
       "features": {
         "pet_friendly": false,
         "smoking": false,
@@ -92,7 +92,7 @@
         "name": "Carla Mendes",
         "type": "comum",
         "typeLabel": "Proprietária",
-        "phone": "(19) 98765-3210",
+        "phone": "(83) 98765-3210",
         "rating": 4.7,
         "reviews": 15,
         "avatar": "https://i.pravatar.cc/100?img=25",
@@ -100,34 +100,34 @@
       },
       "nearby": {
         "universities": [
-          { "name": "UNICAMP — Instituto de Física", "distance": 1.2, "walking": 15 }
+          { "name": "UEPB — Campus I Campina Grande", "distance": 0.9, "walking": 11 }
         ],
         "markets": [
-          { "name": "Atacadão Campinas", "distance": 0.5, "walking": 6 }
+          { "name": "Atacadão Campina Grande", "distance": 0.5, "walking": 6 }
         ],
         "gyms": [
-          { "name": "Academia Corpore", "distance": 0.4, "walking": 5 }
+          { "name": "Academia Studio Fit", "distance": 0.4, "walking": 5 }
         ],
         "bus_stops": [
-          { "name": "Ponto Culto à Ciência", "distance": 0.1, "walking": 1 }
+          { "name": "Ponto Rua Baraúnas", "distance": 0.1, "walking": 1 }
         ]
       }
     },
     {
       "id": 3,
-      "title": "Kitnet completa — próxima à UNESP",
+      "title": "Kitnet completa — próxima à Facisa",
       "type": "kitnet",
       "typeLabel": "Kitnet",
-      "price": 720,
+      "price": 580,
       "images": [
         "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=900&q=80",
         "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?w=900&q=80",
         "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=900&q=80"
       ],
-      "description": "Kitnet compacta, funcional e completamente independente. Cozinha equipada com fogão e geladeira, banheiro privativo e área de serviço. Prédio com portão eletrônico e câmeras. Aceita fumantes na varanda. Vizinhança tranquila a 2,1 km do campus da UNESP com linha de ônibus direta.",
-      "address": "Rua Domingos Sávio, 88 — Vila Rica, Araraquara — SP",
-      "distance_university": 2.1,
-      "travel_time": { "walking": 26, "bus": 10, "car": 6, "bike": 10 },
+      "description": "Kitnet compacta, funcional e completamente independente. Cozinha equipada com fogão e geladeira, banheiro privativo e área de serviço. Portão eletrônico e câmeras de segurança. Vizinhança tranquila no Bairro Universitário, a 1,8 km da Facisa com linha de ônibus direta para o campus.",
+      "address": "Rua Manoel Cardoso Palhano, 88 — Bairro Universitário, Campina Grande — PB",
+      "distance_university": 1.8,
+      "travel_time": { "walking": 22, "bus": 9, "car": 5, "bike": 9 },
       "features": {
         "pet_friendly": false,
         "smoking": true,
@@ -148,7 +148,7 @@
         "name": "Roberto Almeida",
         "type": "locador",
         "typeLabel": "Locador",
-        "phone": "(16) 99341-8872",
+        "phone": "(83) 99341-8872",
         "rating": 4.5,
         "reviews": 8,
         "avatar": "https://i.pravatar.cc/100?img=12",
@@ -156,34 +156,34 @@
       },
       "nearby": {
         "universities": [
-          { "name": "UNESP — Faculdade de Ciências", "distance": 2.1, "walking": 26 }
+          { "name": "Facisa — Faculdade de Ciências Sociais Aplicadas", "distance": 1.8, "walking": 22 }
         ],
         "markets": [
-          { "name": "Dia Supermercado", "distance": 0.2, "walking": 3 }
+          { "name": "Supermercado Bem Barato", "distance": 0.3, "walking": 4 }
         ],
         "gyms": [
-          { "name": "Fitness Araraquara", "distance": 1.0, "walking": 12 }
+          { "name": "Academia X-Treino", "distance": 0.8, "walking": 10 }
         ],
         "bus_stops": [
-          { "name": "Ponto Vila Rica", "distance": 0.1, "walking": 1 }
+          { "name": "Ponto Bairro Universitário", "distance": 0.1, "walking": 1 }
         ]
       }
     },
     {
       "id": 4,
-      "title": "Vaga masculina compartilhada — PUC-SP",
+      "title": "Vaga masculina compartilhada — Uninassau JP",
       "type": "shared",
       "typeLabel": "Compartilhado",
-      "price": 580,
+      "price": 480,
       "images": [
         "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=900&q=80",
         "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=900&q=80",
         "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?w=900&q=80"
       ],
-      "description": "Quarto individual em apartamento dividido com mais 2 estudantes do sexo masculino. Ambiente descontraído, com sala ampla, varanda e cozinha bem equipada. Aceita pets pequenos. Localizado a apenas 500m da PUC-SP — Perdizes, ideal para quem quer chegar rápido às aulas.",
-      "address": "Rua Ministro Godói, 512 — Perdizes, São Paulo — SP",
-      "distance_university": 0.5,
-      "travel_time": { "walking": 7, "bus": 4, "car": 2, "bike": 3 },
+      "description": "Quarto individual em apartamento dividido com mais 2 estudantes do sexo masculino. Ambiente descontraído, com sala ampla, varanda e cozinha bem equipada. Aceita pets pequenos. Localizado a apenas 600m da Uninassau — João Pessoa, ideal para quem quer chegar rápido às aulas.",
+      "address": "Rua Vigário Gomes, 470 — Tambauzinho, João Pessoa — PB",
+      "distance_university": 0.6,
+      "travel_time": { "walking": 8, "bus": 4, "car": 2, "bike": 3 },
       "features": {
         "pet_friendly": true,
         "smoking": false,
@@ -204,7 +204,7 @@
         "name": "Felipe Saraiva",
         "type": "comum",
         "typeLabel": "Proprietário",
-        "phone": "(11) 97654-3321",
+        "phone": "(83) 97654-3321",
         "rating": 4.6,
         "reviews": 11,
         "avatar": "https://i.pravatar.cc/100?img=8",
@@ -212,16 +212,16 @@
       },
       "nearby": {
         "universities": [
-          { "name": "PUC-SP — Perdizes", "distance": 0.5, "walking": 7 }
+          { "name": "Uninassau — Unidade João Pessoa", "distance": 0.6, "walking": 8 }
         ],
         "markets": [
-          { "name": "Pão de Açúcar Perdizes", "distance": 0.3, "walking": 4 }
+          { "name": "Atacadão João Pessoa", "distance": 0.5, "walking": 6 }
         ],
         "gyms": [
-          { "name": "Bodytech Perdizes", "distance": 0.4, "walking": 5 }
+          { "name": "Smart Fit João Pessoa", "distance": 0.4, "walking": 5 }
         ],
         "bus_stops": [
-          { "name": "Estação Marechal Deodoro (Metrô)", "distance": 0.3, "walking": 4 }
+          { "name": "Terminal de Integração do Bessa", "distance": 0.3, "walking": 4 }
         ]
       }
     },
