@@ -19,16 +19,22 @@
       <div class="logo-mark" style="background:var(--accent)">A</div>
       <span class="logo-text">Estudante<strong>Lar</strong> <span style="font-size:11px;color:var(--accent);font-weight:700;letter-spacing:.05em;text-transform:uppercase">Admin</span></span>
     </a>
-    <div class="nav-links">
+    <div class="nav-links" id="navLinks">
       <a href="#" class="nav-link">Dashboard</a>
       <a href="#" class="nav-link">Usuários</a>
       <a href="#" class="nav-link">Anúncios</a>
       <a href="#" class="nav-link">Relatórios</a>
+      <div class="nav-actions">
+        <a href="index.html" class="btn-ghost">← Sair do admin</a>
+        <button class="btn-primary-sm" style="background:var(--accent);box-shadow:0 4px 16px rgba(242,134,80,.35)">Admin</button>
+      </div>
     </div>
-    <div class="nav-actions">
-      <a href="index.html" class="btn-ghost">← Sair do admin</a>
-      <button class="btn-primary-sm" style="background:var(--accent);box-shadow:0 4px 16px rgba(242,134,80,.35)">Admin</button>
-    </div>
+    <button class="sidebar-mobile-btn" id="sidebarToggle" aria-label="Menu admin">
+      <i class="fa-solid fa-bars-staggered"></i>
+    </button>
+    <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
@@ -361,5 +367,7 @@ function banUser(btn) {
   btn.disabled = true;
 }
 </script>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<script src="pages-init.js"></script>
 </body>
 </html>

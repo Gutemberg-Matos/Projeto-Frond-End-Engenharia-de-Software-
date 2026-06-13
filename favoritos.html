@@ -19,16 +19,19 @@
       <div class="logo-mark">E</div>
       <span class="logo-text">Estudante<strong>Lar</strong></span>
     </a>
-    <div class="nav-links">
+    <div class="nav-links" id="navLinks">
       <a href="index.html" class="nav-link">Alugar</a>
       <a href="criar-anuncio.html" class="nav-link">Anunciar</a>
       <a href="roommates.html" class="nav-link">Roommates</a>
       <a href="mensagens.html" class="nav-link">Mensagens</a>
+      <div class="nav-actions">
+        <a href="favoritos.html" class="btn-ghost" style="color:var(--primary)">❤ Favoritos</a>
+        <a href="perfil.html" class="btn-primary-sm">João S.</a>
+      </div>
     </div>
-    <div class="nav-actions">
-      <a href="favoritos.html" class="btn-ghost" style="color:var(--primary)">❤ Favoritos</a>
-      <a href="perfil.html" class="btn-primary-sm">João S.</a>
-    </div>
+    <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
@@ -163,5 +166,6 @@ function removeFav(btn) {
   }, 300);
 }
 </script>
+<script src="pages-init.js"></script>
 </body>
 </html>

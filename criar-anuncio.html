@@ -19,14 +19,17 @@
       <div class="logo-mark">E</div>
       <span class="logo-text">Estudante<strong>Lar</strong></span>
     </a>
-    <div class="nav-links">
+    <div class="nav-links" id="navLinks">
       <a href="index.html" class="nav-link">Alugar</a>
       <a href="meus-anuncios.html" class="nav-link">Meus anúncios</a>
+      <div class="nav-actions">
+        <a href="meus-anuncios.html" class="btn-ghost">← Voltar</a>
+        <a href="perfil.html" class="btn-primary-sm">João S.</a>
+      </div>
     </div>
-    <div class="nav-actions">
-      <a href="meus-anuncios.html" class="btn-ghost">← Voltar</a>
-      <a href="perfil.html" class="btn-primary-sm">João S.</a>
-    </div>
+    <button class="nav-mobile-toggle" id="mobileToggle" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
@@ -297,5 +300,6 @@ function selectTipo(btn) {
   btn.classList.add('active');
 }
 </script>
+<script src="pages-init.js"></script>
 </body>
 </html>
